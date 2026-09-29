@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary Audio & Vision files
+temp_input.wav
+temp_output.mp3
+last_vision.jpg
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+
+# Index cache files (optional, but music_index.json can be regenerated)
+# music_index.json
+
+# IDE
+.idea/
+.vscode/
+
+# OS Files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
