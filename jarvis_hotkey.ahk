@@ -21,7 +21,7 @@ TriggerJarvis() {
     } catch as err {
         TrayTip "Jarvis Uyanıyor...", "Sistem aktif değildi, Jarvis başlatılıyor. Konsol açıldıktan sonra tekrar deneyin.", "Iconi"
         ; Jarvis kapalıysa powershell üzerinden otomatik başlat (Çalışma dizinini Run komutuyla veriyoruz)
-        Run "powershell.exe -NoExit -Command python main.py", "C:\Projeler\Voice-OS"
+        Run "powershell.exe -NoExit -Command python main.py", "C:\Projeler\HelperTools\Voice-OS"
     }
 }
 

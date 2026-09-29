@@ -8,7 +8,7 @@ Bu döküman, **Voice OS** projesinin donanım yapılandırmasını, mimarisini,
 Voice OS; kullanıcının kendi donanımı üzerinde (HP Victus 16 - i5-13500H, RTX 4060 8GB VRAM, 32GB RAM), **%100 yerel, internetsiz (offline), takip edilemez, sansürsüz ve sıfır gecikmeli (zero-latency)** çalışan bir Windows Sesli İşletim Sistemi Kokpitidir.
 
 - **GitHub Reposu:** `https://github.com/taylan1477/Voice-OS`
-- **Yerel Klasör:** `C:\Projeler\Voice-OS`
+- **Yerel Klasör:** `C:\Projeler\HelperTools\Voice-OS`
 
 ---
 
@@ -70,7 +70,7 @@ Voice OS; kullanıcının kendi donanımı üzerinde (HP Victus 16 - i5-13500H, 
 
 ### 6. `jarvis_hotkey.ahk` (AutoHotkey v2)
 - Kısayollar: `Ctrl + A + F`, `Ctrl + Alt + F` veya Gamepad **`Joy9`** (Select/Share tuşu).
-- **Auto-Launcher:** Eğer Jarvis (`main.py`) açık değilken kısayola basılırsa, hata vermek yerine PowerShell penceresi açıp `C:\Projeler\Voice-OS` dizininde Jarvis'i otomatik başlatır.
+- **Auto-Launcher:** Eğer Jarvis (`main.py`) açık değilken kısayola basılırsa, hata vermek yerine PowerShell penceresi açıp `C:\Projeler\HelperTools\Voice-OS` dizininde Jarvis'i otomatik başlatır.
 
 ---
 
